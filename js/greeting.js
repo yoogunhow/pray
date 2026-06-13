@@ -6,7 +6,7 @@ const savedID = localStorage.getItem("id");
 
 function showGreeting(id){
     hello.classList.remove("hidden");
-    hello.innerText = `Hello! ${id}`;
+    hello.innerText = `Hello! ${id}, your to-do list`;
 }
 
 function handleSubmit(event){

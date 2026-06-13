@@ -14,5 +14,3 @@ function tiktok() {
 
 tiktok();
 setInterval(tiktok,1000);
-
-localStorage.
